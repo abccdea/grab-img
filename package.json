@@ -1,0 +1,17 @@
+{
+  "name": "grab-img",
+  "version": "1.0.0",
+  "description": "利用node.js爬取一个网页，通过第三方模块cheerio.js分析网页内容，最后将这个网页的图片保存到本地",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "clear": "rm -rf ./img && mkdir img"
+  },
+  "keywords": [],
+  "author": "Hank",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.88.0"
+  }
+}
